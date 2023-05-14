@@ -1,0 +1,147 @@
+.title {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 200px;
+    margin: auto;
+    color: #E4ABCB;
+    text-decoration: underline;
+}
+.description {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    margin: auto;
+    color: #E4ABCB;
+    text-decoration: underline;
+}
+Body {
+    background-color: #580032;
+    margin: 0;
+    
+}
+.header {
+    background-image: url(./assets/imagens/140218161359-frank-zappa-70s.png);
+    width: 100%;
+    margin: 0;
+    height: 600px;
+    background-size: cover;
+}
+p {
+    color: #E4ABCB;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+.zappa-fan {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+}
+.bio-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+}
+hr {
+    margin: 0;
+    border: 2px solid #E4ABCB;
+    margin-bottom: 20px;
+}
+.discography-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+    text-align: right;
+}
+.gallery {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle p {
+    margin: 0;
+}
+.column {
+   display:flex;
+   gap: 50px;
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5px;
+   justify-content: center;
+}
+.row--space-around {
+    justify-content: space-around;
+}
+.video-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+    text-align: left;
+}
+.video {
+    padding: 5px;
+    width: 400px;
+    height:300px;
+}
+.interview-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+    text-align: right;
+}
+a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+    text-align: right;
+}
+.menu {
+    margin-left: 55px;
+    margin-top: 220px;
+}
+.menu1 {
+    margin-top: 220px;
+}
+.img-with-text {
+    text-align: justify;
+    width: 400px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+.sub-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+}
+.container {
+    padding: 0 32px;
+}
+.bibliografia {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    color:#E4ABCB;
+}
