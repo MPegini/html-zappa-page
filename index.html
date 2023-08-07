@@ -5,39 +5,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frank Zappa, mais uma página de tributo.</title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <div id="background">
+    <div id="barra-superior">
+      <a class="top"></a>
+      <p class="logo">ZAPPA</p>
 
-  <header class="header">
-    <h1 class="title">Frank Zappa</h1>
-    <p class="description">Mais uma página tributo</p><br />
+      <nav class="nav-bar">
+        <a class="menu" href="#bibliografia">BIBLIOGRAFIA</a>
+        <a class="menu" href="#interview">ENTREVISTAS</a>
+        <a class="menu" href="#video">VÍDEOS</a>
+        <a class="menu" href="#disco">DISCOGRAFIA</a>
+        <a class="menu" href="#bio">BIO</a>
+      </nav>
+    </div>
+
+    <div id="header">
+      <h1 class="title">Frank Zappa</h1>
+      <p class="description">MAIS UMA PÁGINA TRIBUTO</p>
+    </div>
 
     <br />
 
-    <div class="column">
-      <a class="menu1" href="#bio">BIO</a><br />
-      <a class="menu" href="#disco">DISCOGRAFIA</a><br />
-      <a class="menu" href="#video">VÍDEOS</a><br />
-      <a class="menu" href="#interview">ENTREVISTAS</a><br />
-    </div>
 
-  </header>
-  <main class="container">
     <h2 id="bio" class="bio-title">BIO</h2>
     <hr>
-    <div class="bio">
+    <br>
 
+    <div id="biografia">
+      <img src="./assets/imagens/04f2e11371794a58bc55efae0c102bac (1).jpg" class="zappa-fan">
 
-      <p class="zappa-bio"><img src="./assets/imagens/04f2e11371794a58bc55efae0c102bac (1).jpg" class="zappa-fan">Frank
-        Vincent Zappa [1] (Baltimore, 21 de dezembro de 1940 — Los Angeles, 4 de dezembro de
+      <p class="zappa-bio">Frank Vincent Zappa [1] (Baltimore, 21 de dezembro de 1940 — Los Angeles, 4 de dezembro de
         1993) foi um compositor, cantor, guitarrista, multi-instrumentista, produtor e realizador americano.
         Considerado um dos maiores músicos e compositores do séc. XX.
         Com uma carreira de mais de trinta anos, a sua obra musical estendeu-se pelo rock, fusion, jazz, música
@@ -107,135 +114,149 @@
 
       </p>
     </div>
+
+    <br>
+
+
     <h2 id="disco" class="discography-title">DISCOGRAFIA SELECIONADA</h2>
     <hr>
 
-
-    <div class="row">
-      <div class="column">
-        <a class="subtitle" href="https://www.youtube.com/watch?v=oF9aJUePkNA"><img
-            src="./assets/imagens/frank-zappa-apostrophe--Cover-Art.png" alt="apostrophe" class="gallery">
-          <p>Apostrophe (1974)</p>
-        </a>
-        <a class="subtitle" href="https://www.youtube.com/watch?v=iJHVY7-R8f8"> <img
-            src="./assets/imagens/the-mothers-over-nite-sensation-Cover-Art.png" alt="overnight" class="gallery">
-          <p>Over Nite Sensation (1973)</p>
-        </a>
-        <a class="subtitle" href="https://www.youtube.com/watch?v=RdU4FHH4FnE"> <img
-            src="./assets/imagens/frank-zappa-hot-rats-Cover-Art.png" alt="hotrats" class="gallery">
-          <p>Hot Rats (1969)</p>
-        </a>
-        <a class="subtitle" href="https://www.youtube.com/watch?v=KRH3GwmyWPg"> <img
-            src="./assets/imagens/frank-zappa-and-the-mothers-of-invention-one-size-fits-all-Cover-Art.png"
-            alt="onesize" class="gallery">
-          <p>One Size Fits All (1975)</p>
-        </a>
-      </div>
-      <div class="column">
-        <a class="subtitle" href="https://www.youtube.com/watch?v=Q5-T1J2YTdQ"> <img
-            src="./assets/imagens/the-mothers-of-invention-burnt-weeny-sandwich-Cover-Art.png" alt="burnt"
-            class="gallery">
-          <p>Burnt Weeny Sandwich (1970)</p>
-        </a>
-        <a class="subtitle" href="https://www.youtube.com/playlist?list=OLAK5uy_mJg70B_PUl0rXiTFrXGgcm2cWob8SpOR8"> <img
-            src="./assets/imagens/the-mothers-of-invention-weasels-ripped-my-flesh-Cover-Art.png" alt="weasels"
-            class="gallery">
-          <p>Weasels Ripped My Flesh (1970)</p>
-        </a>
-        <a class="subtitle" href="https://www.youtube.com/watch?v=6SE_pO8jGag"> <img
-            src="./assets/imagens/frank-zappa-waka-jawaka-Cover-Art.png" alt="waka" class="gallery">
-          <p>Waka/Jawaka (1972)</p>
-        </a>
-        <a class="subtitle" href="https://www.youtube.com/playlist?list=PL22yevoIBQSHfP-Pn9P4wf-fJrO1g06xB"> <img
-            src="./assets/imagens/zappa-zoot-allures-Cover-Art.png" alt="zoot" class="gallery">
-          <p>Zoot Allures (1976)</p>
-        </a>
-      </div>
+    <div id="discografia">
+      <a target="_blank" class="subtitle" href="https://www.youtube.com/watch?v=oF9aJUePkNA"><img
+          src="./assets/imagens/frank-zappa-apostrophe--Cover-Art.png" alt="apostrophe" class="gallery">
+        <p>Apostrophe (1974)</p>
+      </a>
+      <a target="_blank" class="subtitle" href="https://www.youtube.com/watch?v=iJHVY7-R8f8"> <img
+          src="./assets/imagens/the-mothers-over-nite-sensation-Cover-Art.png" alt="overnight" class="gallery">
+        <p>Over Nite Sensation (1973)</p>
+      </a>
+      <a target="_blank" class="subtitle" href="https://www.youtube.com/watch?v=RdU4FHH4FnE"> <img
+          src="./assets/imagens/frank-zappa-hot-rats-Cover-Art.png" alt="hotrats" class="gallery">
+        <p>Hot Rats (1969)</p>
+      </a>
+      <a target="_blank" class="subtitle" href="https://www.youtube.com/watch?v=KRH3GwmyWPg"> <img
+          src="./assets/imagens/frank-zappa-and-the-mothers-of-invention-one-size-fits-all-Cover-Art.png" alt="onesize"
+          class="gallery">
+        <p>One Size Fits All (1975)</p>
+      </a>
+      <a target="_blank" class="subtitle" href="https://www.youtube.com/watch?v=Q5-T1J2YTdQ"> <img
+          src="./assets/imagens/the-mothers-of-invention-burnt-weeny-sandwich-Cover-Art.png" alt="burnt"
+          class="gallery">
+        <p>Burnt Weeny Sandwich (1970)</p>
+      </a>
+      <a target="_blank" class="subtitle"
+        href="https://www.youtube.com/playlist?list=OLAK5uy_mJg70B_PUl0rXiTFrXGgcm2cWob8SpOR8"> <img
+          src="./assets/imagens/the-mothers-of-invention-weasels-ripped-my-flesh-Cover-Art.png" alt="weasels"
+          class="gallery">
+        <p>Weasels Ripped My Flesh (1970)</p>
+      </a>
+      <a target="_blank" class="subtitle" href="https://www.youtube.com/watch?v=6SE_pO8jGag"> <img
+          src="./assets/imagens/frank-zappa-waka-jawaka-Cover-Art.png" alt="waka" class="gallery">
+        <p>Waka/Jawaka (1972)</p>
+      </a>
+      <a target="_blank" class="subtitle"
+        href="https://www.youtube.com/playlist?list=PL22yevoIBQSHfP-Pn9P4wf-fJrO1g06xB"> <img
+          src="./assets/imagens/zappa-zoot-allures-Cover-Art.png" alt="zoot" class="gallery">
+        <p>Zoot Allures (1976)</p>
+      </a>
     </div>
 
     <h2 id="video" class="video-title">Ao Vivo</h2>
     <hr>
-    <div class="row">
-      <div class="column">
-        <iframe class="video" src="https://www.youtube.com/embed/wqp71DOJ3aY" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <iframe class="video" src="https://www.youtube.com/embed/Dp6LT2MdaPI" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <iframe class="video" src="https://www.youtube.com/embed/Aa1JR-TgPfU" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <iframe class="video" src="https://www.youtube.com/embed/HGV3yV9q4Q4" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-      <div class="column">
 
-        <iframe class="video" src="https://www.youtube.com/embed/lXBbttFIVEY" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <iframe class="video" src="https://www.youtube.com/embed/vwpvepxy2UY" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <iframe class="video" src="https://www.youtube.com/embed/DmcYTShN4Fk" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-        <iframe class="video" src="https://www.youtube.com/embed/kSPdg4yPwAg" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
+    <br>
+
+    <div id="ao-vivo">
+      <iframe class="video" src="https://www.youtube.com/embed/wqp71DOJ3aY" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/Dp6LT2MdaPI" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/Aa1JR-TgPfU" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/HGV3yV9q4Q4" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/lXBbttFIVEY" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/vwpvepxy2UY" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/DmcYTShN4Fk" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe class="video" src="https://www.youtube.com/embed/kSPdg4yPwAg" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </div>
+
 
     <h2 id="interview" class="interview-title">Entrevistas</h2>
     <hr>
-    <div class="row row--space-around">
-      <div>
-        <h3 class="sub-title">Entrvistas escritas</h3>
-        <ul>
-          <li><a href="https://whiplash.net/materias/entrevistas/000163-frankzappa.html">Frank Zappa: A inteligência,
-              perspicácia, e humor do então jovem músico</a></li>
-          <li><a href="https://www.afka.net/Articles/1970-08_Jazz_Pop.htm">Zappa - The Great Satirist</a></li>
-          <li> <a href="https://www.davidsheff.com/frank-zappa">That Playboy Interview</a></li>
-          <li><a href="https://www.rollingstone.com/music/music-news/the-rolling-stone-interview-frank-zappa-81967/">The
-              Rolling Stone Interview: Frank Zappa</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="sub-title">Entrvistas em vídeos</h3>
-        <ul>
-          <li><a href="https://www.youtube.com/watch?v=NwCthSsWk7Y">Frank Zappa Interview: HISTORIC FILMS ARCHIVE</a>
-          </li>
-          <li><a href="https://www.youtube.com/watch?v=Eln3J6BxWN0">Frank Zappa - Interview - 12/8/1984 - unknown
-              (Official)</a></li>
-          <li> <a href="https://www.youtube.com/watch?v=XFt753FwOfw">Frank Zappa Interview about Larry Flynt -
-              4/8/1987</a>
-          </li>
-          <li><a href="https://www.youtube.com/watch?v=kq1GZeKPV5g">Frank Zappa interview 1987</a></li>
-        </ul>
-      </div>
+
+    <br>
+
+    <div id="entrevistas">
+      <h3 class="sub-title">Entrvistas escritas:</h3><br>
+      <br>
+      <ul>
+        <li><a target="_blank" href="https://whiplash.net/materias/entrevistas/000163-frankzappa.html">Frank Zappa: A
+            inteligência,
+            perspicácia, e humor do então jovem músico</a></li>
+        <li><a a target="_blank" href="https://www.afka.net/Articles/1970-08_Jazz_Pop.htm">Zappa - The Great
+            Satirist</a></li>
+        <li> <a a target="_blank" href="https://www.davidsheff.com/frank-zappa">That Playboy Interview</a></li>
+        <li><a a target="_blank"
+            href="https://www.rollingstone.com/music/music-news/the-rolling-stone-interview-frank-zappa-81967/">The
+            Rolling Stone Interview: Frank Zappa</a></li>
+      </ul>
+
+      <br>
+
+      <h3 class="sub-title">Entrvistas em vídeos:</h3><br>
+      <br>
+      <ul>
+        <li><a a target="_blank" href="https://www.youtube.com/watch?v=NwCthSsWk7Y">Frank Zappa Interview: HISTORIC
+            FILMS
+            ARCHIVE</a>
+        </li>
+        <li><a a target="_blank" href="https://www.youtube.com/watch?v=Eln3J6BxWN0">Frank Zappa - Interview - 12/8/1984
+            - unknown
+            (Official)</a></li>
+        <li> <a a target="_blank" href="https://www.youtube.com/watch?v=XFt753FwOfw">Frank Zappa Interview about Larry
+            Flynt -
+            4/8/1987</a>
+        </li>
+        <li><a a target="_blank" href="https://www.youtube.com/watch?v=kq1GZeKPV5g">Frank Zappa interview 1987</a></li>
+      </ul>
     </div>
+
+    <br>
 
     <h2 id="bibliografia" class="bibliografia">Bibliografia e links úteis</h2>
     <hr>
+
+    <br>
+
     <ul>
-      <li><a href="https://www.zappa.com/#/">Zappa.com</a></li>
-      <li><a href="https://pt.wikipedia.org/wiki/Frank_Zappa">Wikipedia</a></li>
-      <li><a href="https://rateyourmusic.com/artist/frank-zappa">Perfil do Rate Your Music</a></li>
-      <li><a href="https://open.spotify.com/artist/6ra4GIOgCZQZMOaUECftGN"> Perfil no Spotify</a></li>
+      <li><a a target="_blank" href="https://www.zappa.com/#/">Zappa.com</a></li>
+      <li><a a target="_blank" href="https://pt.wikipedia.org/wiki/Frank_Zappa">Wikipedia</a></li>
+      <li><a a target="_blank" href="https://rateyourmusic.com/artist/frank-zappa">Perfil do Rate Your Music</a></li>
+      <li><a a target="_blank" href="https://open.spotify.com/artist/6ra4GIOgCZQZMOaUECftGN"> Perfil no Spotify</a></li>
     </ul>
 
     <hr>
-<p class="description">Coded by <a href="https://www.linkedin.com/in/marcelopegini/">Marcelo Pegini</a></p>
-  </main>
+    <div id="footer">
+      <p class="description">Coded by <a href="https://www.linkedin.com/in/marcelopegini/">Marcelo Pegini</a></p>
+      <a class="top" href="#top">Back to top</a>
+    </div>
+
+
+
+  </div>
 </body>
 
 </html>
